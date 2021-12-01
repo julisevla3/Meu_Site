@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+htm {
+    scroll-behavior: smooth;
+    /*Congela o menu e o deixa com transparencia embaçada*/
+}
+
+.main-menu {
+    color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(12px);
+    width: 100%;
+    padding: 24px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 50px;
+}
+
+.main-menu ul {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 42px;
+    /* espaço entre o menu*/
+    list-style: none;
+}
+
+.main-menu ul a {
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main -menu ul a:hover {
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.introdution {}
+
+.introdution h1 {
+    color: white;
+    font-size: 82px;
+    margin-top: 72px;
+    /* letter-spacing: 4px; */
+}
+
+.socials {
+    margin-top: 32px;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials a img {
+    width: 72px;
+    opacity: .5;
+    /* tirar o brilho do incone*/
+}
+
+.socials a img:hover {
+    opacity: 1;
+}
+
+.introdution article {
+    margin-top: 32px;
+    display: flex;
+    /* para colocar uma imagem do lado do texto*/
+    gap: 200px;
+    /*colocar espaço entre a imagem*/
+}
+
+.introdution article p {
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.introdution article p a {
+    color: white;
+    text-decoration: none;
+    /*retira o link azul*/
+    /* margin-top: 18px 24px; */
+}
+
+.introdution article img {
+    width: 300px;
+    height: 350px;
+    border-radius: 32px;
+    object-fit: cover;
+}
+
+.works {
+    color: white;
+}
+
+.section-title {
+    color: white;
+    font-size: 48px;
+    margin-top: 200px;
+}
+
+.works article {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.works article h1 {
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 32px;
+    /* line-height: 30px; */
+}
+
+.works article p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 18p 0 32px;
+}
+
+.works article a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.works .infos {
+    width: 500px;
+}
+
+.works .images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 200px;
+}
+
+.works .images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 32px;
+}
