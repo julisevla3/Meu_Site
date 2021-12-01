@@ -25,7 +25,7 @@ htm {
     z-index: 50px;
 }
 
-.main-menu ul {
+.main-menu ul  {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -40,7 +40,7 @@ htm {
     text-decoration: none;
 }
 
-.main -menu ul a:hover {
+.main-menu ul a:hover {
     color: white;
 }
 
@@ -49,12 +49,11 @@ main {
     margin: 0 auto;
 }
 
-.introdution {}
 
 .introdution h1 {
     color: white;
-    font-size: 82px;
-    margin-top: 72px;
+    font-size: 60px;
+    margin-top: 60px;
     /* letter-spacing: 4px; */
 }
 
@@ -98,8 +97,8 @@ main {
 }
 
 .introdution article img {
-    width: 300px;
-    height: 350px;
+    width: 600px;
+    height: 400px;
     border-radius: 32px;
     object-fit: cover;
 }
@@ -156,4 +155,34 @@ main {
     height: 300px;
     object-fit: cover;
     border-radius: 32px;
+}
+
+main .zap  img{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.main-footer {
+    align-items: center;
+
+}
+
+footer {
+    padding: 10px;
+    background-color: rgb(75, 75, 75);
+    align-items: center;
+
+}
+
+
+footer img {
+     height: 40px;
+    width: 40px; 
+    /* margin-left: 12px;  */
+    align-items: center;
+
+    
 }
