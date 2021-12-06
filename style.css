@@ -108,8 +108,27 @@ main {
 
 .section-title {
     color: white;
-    font-size: 48px;
+    font-size: 30px;
     margin-top: 200px;
+}
+
+#projeto1 ul{
+    color:  rgba(255, 255, 255, 0.52);
+    text-align: none;
+    margin-left: 12px;
+    margin-bottom: 12px;
+
+}
+    
+#projeto1 ul li{
+    text-align: none;
+    margin-right: 24px;
+
+}
+#projeto1 p{
+ 
+    margin-bottom: 24px;
+
 }
 
 .works article {
